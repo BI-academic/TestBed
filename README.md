@@ -10,3 +10,6 @@ Testbed for organization
 
 - [ Git Workflow ](https://www.atlassian.com/git/tutorials/comparing-workflows)
 - [ Trunk based workflow ](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)
+
+## Example of git workflow in this repository
+- 현재 Repository는 main, dev, test branches를 가지고 있으며, 개발자가 하나의 feature branch를 dev로 부터 생성 후에 Merge request를 dev로만 해야합니다. Feature branch는 개발하고자 하는 이름이나 내용을 적는것이 일반적이고 각각의 feature에 대응하는 issue ticket을 연결하는 것이 좋습니다.
